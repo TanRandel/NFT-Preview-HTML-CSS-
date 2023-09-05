@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.parentbox{
+    background-color:hsl(216, 50%, 16%);
+    width: 260px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.imgcontainer{
+    background-image: url(/images/image-equilibrium.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.overlay{
+    background-color: hsl(178, 100%, 50%, 0.5);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.imgcontainer:hover .overlay{
+    display: flex;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: hsl(178, 100%, 50%);
+}
+.PriceTime{
+    
+    display: flex;
+    justify-content: space-between;
+    height: 10px;
+    margin-bottom: 30px;
+}
+.price{
+    align-items: center;
+    display: flex;
+}
+.price svg{
+    margin-right: 10px;
+}
+.time{
+    align-items: center;
+    display: flex;
+}
+.time svg{
+   margin-right: 10px;
+}
+hr{
+   border-color: hsl(215, 32%, 50%);
+}
+
+.author{
+    align-items: center;
+    display: flex;
+}
+.authorpic{
+    border-radius: 100%;
+    border: 1px solid white;
+    height: 30px;
+    width:30px;
+    margin-right: 10px;
+}
