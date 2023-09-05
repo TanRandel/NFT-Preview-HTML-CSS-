@@ -30,6 +30,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius- 10px;
 }
 .overlay{
     background-color: hsl(178, 100%, 50%, 0.5);
